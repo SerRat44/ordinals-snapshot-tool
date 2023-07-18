@@ -14,7 +14,7 @@
         function fetchOwners() {
             const tokenIds = JSON.parse(document.getElementById('tokenIds').value);
             const tokenIdsString = tokenIds.map(id => `&tokenIds=${id}`).join('');
-            const url = `https://api-mainnet.magiceden.io/v2/ord/btc/tokens?${tokenIdsString}`;
+            const url = `https://api-mainnet.magiceden.dev/v2/ord/btc/tokens?${tokenIdsString}`;
 
             axios.get(url, {
                 headers: {
