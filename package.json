@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "api": "^6.1.0",
-    "axios": "^1.4.0",
-    "readline": "^1.3.0"
+    "axios": "^1.4.0"
   }
 }
